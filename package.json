@@ -1,0 +1,33 @@
+{
+  "name": "rocket_firm_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development",
+    "watch": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeyrDeveloper/photo_task.git"
+  },
+  "keywords": [
+    "task"
+  ],
+  "author": "MeyrDeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeyrDeveloper/photo_task/issues"
+  },
+  "homepage": "https://github.com/MeyrDeveloper/photo_task#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "css-loader": "^2.1.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
