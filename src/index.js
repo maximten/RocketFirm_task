@@ -12,6 +12,7 @@ req.then((data)=> console.log(data));
 
 document.getElementById('searchButton').addEventListener('click', function(e){
     e.preventDefault();
+    // Лучше использовать const, вместо let, где можно
     let searchElem = document.getElementById('mainSearch');
     let value = searchElem.value;
     search(accessKey, value, wrapper);

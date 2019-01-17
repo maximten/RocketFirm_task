@@ -82,26 +82,32 @@ main .item{
     z-index: 100;
     background-color: grey;
     max-width: 90%;
-    max-height: 80%;
     width: 100%;
-    height: 100%;
+    height: auto;
     border: 2px solid grey;
     border-radius: 10px;
     overflow: hidden;
+    padding: 20px;
 }
 
 .overlay .overlay-wrapper{
     border-radius: 30px;
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 100%;
     z-index: 101;
     opacity: 1;
     text-align: center;
+    margin: auto;
 }
+
+/* https://getbootstrap.com/docs/4.0/content/images/
+max-width: 100%;
+height: auto;
+Как в бутстрапе, чтобы картинки не скукоживались */
 .overlay-wrapper img{
-    width: 900px;
-    height: 800px;
+    max-width: 100%;
+    height: auto;
     opacity: 1;
     z-index: 102;
 }
